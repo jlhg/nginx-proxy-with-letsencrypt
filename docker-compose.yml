@@ -1,5 +1,5 @@
 nginx-proxy:
-  container_name: srv-ngnix-proxy
+  container_name: srv-nginx-proxy
   image: jwilder/nginx-proxy:0.4.0
   volumes:
     - /etc/nginx/vhost.d
